@@ -14,8 +14,36 @@ body{
 .conteudo{
     flex-direction: row-reverse !important;
 }
-
+.secao-1{
+    background-color: hsl(270, 9%, 17%);
+    margin-bottom: 800px;
+}
 .capa{
-    background-color: hsl(270, 9%, 17%) ;
-    height: 100vh;
+    background-color: hsl(270, 9%, 17%);
+    height: 45vh;
+    color: #fff;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slogan h1{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.slogan p{
+    font-size: 16px;
+}
+
+.imagem img{
+    height: 30rem;
+}
+
+.imagem{
+    margin-top: 300px;
 }
