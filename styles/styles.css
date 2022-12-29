@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+.container-fluid{
+    margin: auto 70px;
+}
+.conteudo{
+    flex-direction: row-reverse !important;
+}
+
+.capa{
+    background-color: hsl(270, 9%, 17%) ;
+    height: 100vh;
+}
